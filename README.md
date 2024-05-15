@@ -1,4 +1,4 @@
-# ML-Course-Project
+# Multi-label Quote Classification
 This study aims to develop and evaluate a multi-label quote classification model for categorizing English quotes into their topics/themes. 
 
 To identify and extract sophisticated features from quote texts, techniques such as TF-IDF, and SentenceTransformer text-embeddings, were used. Employing traditional machine learning models, specifically K-Nearest Neighbour, Random Forest, and Multi-Layer Perceptron, this study utilized two multi-label constructor strategies—Binary Relevance and Multi-Output Classifier. Through extensive evaluation using both sample-based and label-based metrics, Random Forest emerged as the most effective multi-theme quote classifier. It demonstrated higher precision, particularly with feature vectors derived from SentenceTransformers and the combination of TF-IDF and SentenceTransformers.
